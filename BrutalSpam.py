@@ -16,7 +16,7 @@ cyan = "\033[1;36m"
 purple = "\033[1;35m"
 white = "\033[1;37m"
 black = "\033[1;30m"
-
+os.system("git pull")
 if "linux" in sys.platform.lower():
 	os.system(
 			"clear"
